@@ -1,9 +1,12 @@
+import allure
 import pytest
 import requests
 from conftest import *
 from const import *
-class TestCreateCourier:
 
+
+class TestCreateCourier:
+    @allure.title('Успешное создание курьера')
     def test_create_courier(self, helper_init):
         for_test = helper_init
         generate_data = for_test.generate_data()
@@ -12,6 +15,7 @@ class TestCreateCourier:
         assert Response_message.positive_create in response.text and response.status_code == 201
         for_test.delete_courier(generate_data[0], generate_data[1])
 
+    @allure.title('Возвращает ошибку, при создании дубля')
     def test_double_create(self, helper_init):
         for_test = helper_init
         generate_data = for_test.generate_data()
@@ -21,6 +25,7 @@ class TestCreateCourier:
         assert Response_message.double_courier_exception in second_courier.text and second_courier.status_code == 409
         for_test.delete_courier(generate_data[0], generate_data[1])
 
+    @allure.title('Возвращает ошибку, при использовании некорректных кредов')
     def test_incorrect_credetional(self, helper_init):
         for_test = helper_init
         generate_data = for_test.generate_data()

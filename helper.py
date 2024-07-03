@@ -1,3 +1,4 @@
+import allure
 import requests
 import random
 import string
@@ -7,16 +8,20 @@ from const import *
 
 class Helper:
     @staticmethod
+    @allure.step('Создание рандомного логина/пароля/имя')
     def generate_random_string(length):
         letters = string.ascii_lowercase
         random_string = ''.join(random.choice(letters) for _ in range(length))
         return random_string
 
     @staticmethod
+    @allure.step('Создание рандомных кредов')
     def generate_data():
         data = [Helper.generate_random_string(10), Helper.generate_random_string(10), Helper.generate_random_string(10)]
         return data
+
     @staticmethod
+    @allure.step('Удалить курьера')
     def delete_courier(login, password):
         response_post = requests.post(Endpoints.LOGIN, data={
             "login": login,
@@ -24,7 +29,9 @@ class Helper:
         })
         courier_id = response_post.json()['id']
         requests.delete(f'{Endpoints.DELETE}/{courier_id}')
+
     @staticmethod
+    @allure.step('Создание курьера и возвращение его кредов')
     def register_new_courier_and_return_login_password():
         login_pass = []
 
@@ -49,6 +56,7 @@ class Helper:
         return login_pass
 
     @staticmethod
+    @allure.step('Создать заказ')
     def create_order(colour):
         order_data = {
             "firstName": "Гендальф",
