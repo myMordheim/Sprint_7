@@ -104,10 +104,3 @@ class Courier:
             return 'nothing to delete'
         else:
             return requests.delete(f'{Endpoints.DELETE}{self.courier_id}')
-
-    # @allure.step('Получаем список заказов')
-    # def orders(self):
-    #     if self.courier_id is None:
-    #         return 'need login before get orders'
-    #     else:
-    #         return requests.get(f'{orders_by_id_url}{self.courier_id}')
