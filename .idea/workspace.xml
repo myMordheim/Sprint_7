@@ -4,13 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="164b925b-c3ae-48ef-becb-78da5b478fb7" name="Changes" comment="add tests">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="164b925b-c3ae-48ef-becb-78da5b478fb7" name="Changes" comment="add allure_result">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/06a1ba8b-3919-4e92-afcd-16b46f1da3ff-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/07b91ba5-6a59-408a-b460-490cb8705530-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/0daeffca-9840-4c7b-bda0-9406f60046fe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/0f1a6b00-4a78-48c8-a0e0-6f80dd019d35-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/1d57c782-43ec-43c9-bb18-50449933240f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/1f0346dd-3407-4865-b589-e421fadb4a09-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/290acc71-bbb2-492a-aa94-650e3e2bbb0c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/2da73da4-109c-4721-89e5-3fe7bb1cc6d9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/40ec2cae-7df0-46bc-82d5-feb41977618e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/4ae78df2-f8fa-4acc-8fb1-c270c576b211-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/4c3cc7f8-1db7-4a55-84e6-db1ec12145be-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/5466ce6d-9128-4402-963f-8075160551a5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/60ba84ee-db78-442b-b6f0-80907b70dce2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/668c01ea-b166-494a-891e-9e06c645f384-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/8c5a7e3a-37b9-48f3-bb75-10ed1528a988-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/a0802208-559d-4a37-944c-55ccc73b14a9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/a4077a6d-2dac-44bb-8395-d3d84cdb13a2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/a8eebd3e-be8c-4927-9f35-e2a8e3ee834e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/b01837bc-6dbc-4a0a-ad0b-0fed37466794-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/b87702f2-ec54-4d4a-bfd7-25363250e86d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/bec28985-054d-4220-a985-8fc7c8bff5aa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/c2d40dc3-424e-4dcb-bb4e-335b8b7b5f32-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/d47ceb5a-775f-4aed-9508-41ca55b7f14b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/d69a98b0-c88e-48b5-afc8-2140a6705325-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/d9d28079-d732-4b91-9366-de012f9f8a60-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/dacf7d0d-cffd-473b-b12c-b0e71397528c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/e6fb888f-2c56-4161-bee9-92e2e34970ed-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/ea21337d-4a50-4de3-9b9f-93ce10b5dd49-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/eef09f4b-19a8-4e95-8904-f41997cd2e49-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/ef87acf6-3fe1-40f9-8348-19e91b4cf73a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/fd28492e-f962-497a-b8b6-2f9dd7e42244-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/fdd4a00c-09df-43fe-ae1f-233042277fe9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/helper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_create_courier.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_create_courier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_login_courier.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_courier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urls.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +65,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ik96yGLp475zjgbfDBg895jKXD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,27 +76,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_create_courier.TestCreateCourier.executor": "Run",
-    "Python tests.Python tests for test_create_courier.TestCreateCourier.test_create_courier.executor": "Run",
-    "Python tests.Python tests for test_create_courier.TestCreateCourier.test_double_create.executor": "Run",
-    "Python tests.Python tests for test_create_courier.TestCreateCourier.test_incorrect_credetional.executor": "Run",
-    "Python tests.Python tests for test_create_order.TestCreateOrder.executor": "Run",
-    "Python tests.Python tests for test_login_courier.TestLoginCourier.executor": "Run",
-    "Python tests.Python tests for test_login_courier.TestLoginCourier.test_login.executor": "Run",
-    "Python tests.Python tests for test_login_courier.TestLoginCourier.test_login_incorrect_login.executor": "Run",
-    "Python tests.Python tests for test_login_courier.TestLoginCourier.test_login_missing_cred.executor": "Run",
-    "Python tests.Python tests for test_login_courier.TestLoginCourier.test_login_missing_cred21.executor": "Run",
-    "Python tests.Python tests for test_login_courier.TestLoginCourier.test_login_missing_login.executor": "Run",
-    "Python tests.Python tests for test_login_courier.TestLoginCourier.test_login_missing_password.executor": "Run",
-    "Python tests.Python tests for test_login_courier.TestLoginCourier.test_login_without_cred.executor": "Run",
-    "Python tests.Python tests for test_order.TestCreateOrder.executor": "Run",
-    "Python tests.Python tests for test_order.TestCreateOrder.test_return_list.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_create_courier.TestCreateCourier.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_courier.TestCreateCourier.test_create_courier.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_courier.TestCreateCourier.test_double_create.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_courier.TestCreateCourier.test_incorrect_credetional.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_order.TestCreateOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_courier.TestLoginCourier.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_courier.TestLoginCourier.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_courier.TestLoginCourier.test_login_incorrect_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_courier.TestLoginCourier.test_login_missing_cred.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_courier.TestLoginCourier.test_login_missing_cred21.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_courier.TestLoginCourier.test_login_missing_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_courier.TestLoginCourier.test_login_missing_password.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_courier.TestLoginCourier.test_login_without_cred.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_order.TestCreateOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_order.TestCreateOrder.test_return_list.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests for test_login_courier.TestLoginCourier">
     <configuration name="Python tests for test_create_courier.TestCreateCourier" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Sprint_7" />
@@ -182,12 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1720039970862</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add allure_result">
+      <option name="closed" value="true" />
+      <created>1720041360268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720041360268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create Repository" />
     <MESSAGE value="add tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tests" />
+    <MESSAGE value="add allure_result" />
+    <option name="LAST_COMMIT_MESSAGE" value="add allure_result" />
   </component>
 </project>
