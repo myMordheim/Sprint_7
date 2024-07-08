@@ -3,6 +3,7 @@ import requests
 import random
 import string
 import json
+from data import Data
 from const import *
 
 
@@ -58,19 +59,10 @@ class Helper:
     @staticmethod
     @allure.step('Создать заказ')
     def create_order(colour):
-        order_data = {
-            "firstName": "Гендальф",
-            "lastName": "Белый",
-            "address": "Валинор",
-            "metroStation": 4,
-            "phone": "+7 800 355 35 35",
-            "rentTime": 5,
-            "deliveryDate": "2020-06-06",
-            "comment": "Saske, come back to Konoha",
-            "color": colour
-        }
+        order1 = Data.order_data
+        order1['color'] = colour
 
-        return requests.post(Endpoints.CREATE_ORDER, data=json.dumps(order_data))
+        return requests.post(Endpoints.CREATE_ORDER, data=json.dumps(order1))
 
 class Courier:
 
